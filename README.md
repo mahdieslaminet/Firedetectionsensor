@@ -1,6 +1,4 @@
 # Firedetectionsensor
-لینک ویدیو : 
-https://drive.google.com/drive/folders/1IIO6Jz4lwITJ0vL1D1AQx3cwydVXZyfd?usp=sharing 
 
 
 
@@ -25,6 +23,10 @@ GPIO.setup(led_pin, GPIO.OUT)در این بخش، شما پایه‌های GPIO 
 except KeyboardInterrupt:
     GPIO.cleanup()در این بخش، یک حلقه بی‌نهایت اجرا می‌شود که مقدار آنالوگ از سنسور خوانده شده و سپس در کنسول چاپ می‌شود. اگر مقدار گاز بیشتر از 100 باشد، LED روشن می‌شود و در غیر این صورت خاموش می‌شود.پایان حلقه و تمیز کردن GPIO:except KeyboardInterrupt:
     GPIO.cleanup()در صورت فشار Ctrl+C (یا متوقف شدن حلقه به هر دلیل دیگر)، با این بخش اطمینان حاصل می‌شود که GPIO پاکسازی شده و منابع اشغال شده آزاد شوند
+
+لینک ویدیو : 
+https://drive.google.com/drive/folders/1IIO6Jz4lwITJ0vL1D1AQx3cwydVXZyfd?usp=sharing
+
 
 
 
