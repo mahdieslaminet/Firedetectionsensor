@@ -1,4 +1,10 @@
 # Firedetectionsensor
+لینک ویدیو : 
+https://drive.google.com/drive/folders/1IIO6Jz4lwITJ0vL1D1AQx3cwydVXZyfd?usp=sharing 
+
+
+
+
 این کد به زبان پایتون برای استفاده از Raspberry Pi و کتابخانه RPi.GPIO برای کنترل پایه‌های GPIO نوشته شده است. در زیر به توضیح هر بخش از کد می‌پردازم:وارد کردن کتابخانه‌ها:import RPi.GPIO as GPIO
 import timeاین بخش به شما این امکان را می‌دهد که از کتابخانه‌های RPi.GPIO و time استفاده کنید.تنظیمات اولیه:sensor_pin = 17  # پایه GPIO برای خواندن اطلاعات از سنسور
 led_pin = 27     # پایه GPIO برای کنترل LED
